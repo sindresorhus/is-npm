@@ -1,6 +1,6 @@
 # is-npm [![Build Status](https://travis-ci.org/sindresorhus/is-npm.svg?branch=master)](https://travis-ci.org/sindresorhus/is-npm)
 
-> Check if your code is running as an [npm script](https://www.npmjs.org/doc/misc/npm-scripts.html)
+> Check if your code is running as an [npm](https://www.npmjs.org/doc/misc/npm-scripts.html) or [yarn](https://yarnpkg.com/lang/en/docs/cli/run/) script
 
 
 ## Install
@@ -21,6 +21,8 @@ console.log(isNpm);
 $ node foo.js
 #=> false
 $ npm run foo
+#=> true
+$ yarn run foo
 #=> true
 ```
 
