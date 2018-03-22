@@ -1,7 +1,6 @@
-'use strict';
-var test = require('ava');
-var isNpm = require('./');
+import test from 'ava';
+import m from '.';
 
-test(function (t) {
-	t.assert(isNpm);
+test('main', t => {
+	t.true(m);
 });

@@ -1,19 +1,20 @@
 # is-npm [![Build Status](https://travis-ci.org/sindresorhus/is-npm.svg?branch=master)](https://travis-ci.org/sindresorhus/is-npm)
 
-> Check if your code is running as an [npm](https://www.npmjs.org/doc/misc/npm-scripts.html) or [yarn](https://yarnpkg.com/lang/en/docs/cli/run/) script
+> Check if your code is running as an [npm](https://docs.npmjs.com/misc/scripts) or [yarn](https://yarnpkg.com/lang/en/docs/cli/run/) script
 
 
 ## Install
 
-```sh
-$ npm install --save is-npm
+```
+$ npm install is-npm
 ```
 
 
 ## Usage
 
 ```js
-var isNpm = require('is-npm');
+const isNpm = require('is-npm');
+
 console.log(isNpm);
 ```
 
@@ -29,4 +30,4 @@ $ yarn run foo
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
