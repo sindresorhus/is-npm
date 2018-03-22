@@ -1,6 +1,6 @@
 {
   "name": "is-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check if your code is running as an npm script",
   "license": "MIT",
   "repository": "sindresorhus/is-npm",
@@ -16,7 +16,8 @@
     "test": "node test.js"
   },
   "files": [
-    "index.js"
+    "index.js",
+    "license"
   ],
   "keywords": [
     "npm",
