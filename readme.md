@@ -13,7 +13,7 @@ $ npm install is-npm
 ## Usage
 
 ```js
-const isNpm = require('is-npm');
+const {isNpm} = require('is-npm');
 
 console.log(isNpm);
 ```
