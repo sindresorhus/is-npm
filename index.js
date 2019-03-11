@@ -5,5 +5,5 @@ const isNpm =
 	'npm_package_name' in process.env ||
 	'npm_config_heading' in process.env;
 
-// TODO: this named export should be replaced by a default export as soon as we move to ES modules
+// TODO: This named export should be replaced by a default export as soon as we move to ES modules
 exports.isNpm = isNpm;
