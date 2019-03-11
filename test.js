@@ -1,6 +1,6 @@
 import test from 'ava';
-import m from '.';
+import {isNpm} from '.';
 
 test('main', t => {
-	t.true(m);
+	t.true(isNpm);
 });
