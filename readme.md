@@ -13,18 +13,36 @@ $ npm install is-npm
 ## Usage
 
 ```js
-const {isNpm} = require('is-npm');
+const {isNpmOrYarn, isNpm, isYarn} = require('is-npm');
 
-console.log(isNpm);
+console.table({isNpmOrYarn, isNpm, isYarn});
 ```
 
 ```sh
 $ node foo.js
-#=> false
+# ┌─────────────┬────────┐
+# │   (index)   │ Values │
+# ├─────────────┼────────┤
+# │ isNpmOrYarn │ false  │
+# │    isNpm    │ false  │
+# │   isYarn    │ false  │
+# └─────────────┴────────┘
 $ npm run foo
-#=> true
+# ┌─────────────┬────────┐
+# │   (index)   │ Values │
+# ├─────────────┼────────┤
+# │ isNpmOrYarn │  true  │
+# │    isNpm    │  true  │
+# │   isYarn    │ false  │
+# └─────────────┴────────┘
 $ yarn run foo
-#=> true
+# ┌─────────────┬────────┐
+# │   (index)   │ Values │
+# ├─────────────┼────────┤
+# │ isNpmOrYarn │  true  │
+# │    isNpm    │ false  │
+# │   isYarn    │  true  │
+# └─────────────┴────────┘
 ```
 
 

@@ -3,10 +3,14 @@
  *
  * @example
  *
- * import {isNpm} from 'isNpm';
+ * import {isNpmOrYarn} from 'is-npm';
  *
- * if (isNpm) {
- * 	console.log('Running as a npm script!');
+ * if (isNpmOrYarn) {
+ * 	console.log('Running as an npm or yarn script!');
  * }
  */
+export const isNpmOrYarn: boolean;
+
 export const isNpm: boolean;
+
+export const isYarn: boolean;
