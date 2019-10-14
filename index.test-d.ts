@@ -1,4 +1,6 @@
 import {expectType} from 'tsd-check';
-import {isNpm} from '.';
+import {isNpmOrYarn, isYarn, isNpm} from '.';
 
+expectType<boolean>(isNpmOrYarn);
 expectType<boolean>(isNpm);
+expectType<boolean>(isYarn);
