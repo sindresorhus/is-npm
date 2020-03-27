@@ -2,13 +2,11 @@
 
 > Check if your code is running as an [npm](https://docs.npmjs.com/misc/scripts) or [yarn](https://yarnpkg.com/lang/en/docs/cli/run/) script
 
-
 ## Install
 
 ```
 $ npm install is-npm
 ```
-
 
 ## Usage
 
@@ -45,6 +43,9 @@ $ yarn run foo
 # └─────────────┴────────┘
 ```
 
+## Related
+
+- [is-npm-cli](https://github.com/sindresorhus/is-npm-cli) - CLI for this module
 
 ---
 
