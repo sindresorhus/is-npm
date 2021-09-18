@@ -1,5 +1,5 @@
 import {expectType} from 'tsd';
-import {isNpmOrYarn, isYarn, isNpm} from '.';
+import {isNpmOrYarn, isYarn, isNpm} from './index.js';
 
 expectType<boolean>(isNpmOrYarn);
 expectType<boolean>(isNpm);

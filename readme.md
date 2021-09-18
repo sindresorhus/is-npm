@@ -4,14 +4,14 @@
 
 ## Install
 
-```
-$ npm install is-npm
+```sh
+npm install is-npm
 ```
 
 ## Usage
 
 ```js
-const {isNpmOrYarn, isNpm, isYarn} = require('is-npm');
+import {isNpmOrYarn, isNpm, isYarn} from 'is-npm';
 
 console.table({isNpmOrYarn, isNpm, isYarn});
 ```
