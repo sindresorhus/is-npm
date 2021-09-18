@@ -1,6 +1,6 @@
 {
 	"name": "is-npm",
-	"version": "5.0.0",
+	"version": "6.0.0",
 	"description": "Check if your code is running as an npm script",
 	"license": "MIT",
 	"repository": "sindresorhus/is-npm",
