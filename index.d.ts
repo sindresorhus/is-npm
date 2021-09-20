@@ -1,5 +1,5 @@
 /**
-Check if your code is running as an [npm](https://docs.npmjs.com/misc/scripts) or [yarn](https://yarnpkg.com/lang/en/docs/cli/run/) script.
+Check if your code is running as an [npm](https://docs.npmjs.com/misc/scripts) or [yarn](https://yarnpkg.com/cli/run) script.
 
 @example
 ```
@@ -27,7 +27,7 @@ if (isNpm) {
 export const isNpm: boolean;
 
 /**
-Check if your code is running as a [yarn](https://yarnpkg.com/lang/en/docs/cli/run/) script.
+Check if your code is running as a [yarn](https://yarnpkg.com/cli/run) script.
 
 @example
 ```
