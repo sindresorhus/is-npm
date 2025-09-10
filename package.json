@@ -1,6 +1,6 @@
 {
 	"name": "is-npm",
-	"version": "6.0.0",
+	"version": "6.1.0",
 	"description": "Check if your code is running as an npm script",
 	"license": "MIT",
 	"repository": "sindresorhus/is-npm",
@@ -12,7 +12,7 @@
 	},
 	"type": "module",
 	"exports": "./index.js",
-		"types": "./index.d.ts",
+	"types": "./index.d.ts",
 	"sideEffects": false,
 	"engines": {
 		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
